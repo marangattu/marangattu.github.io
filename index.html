@@ -178,11 +178,11 @@
         <fieldset>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Full Name</label>
-            <input type="text" name="Name" id="name" />
+            <input type="text" name="Name" id="name" required/>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Email Address</label>
-            <input type="text" name="Email" id="email" />
+            <input type="text" name="Email" id="email" required/>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Phone</label>
@@ -192,8 +192,10 @@
             <label>Room</label>
             <div class="selector">
               <select id="room">
-                <option value="Double Deluxe" selected>Double Deluxe</option>
-                <option value="Ocean View Suites">Sea View Suites</option>
+                <option value="Familty Suite" selected>Family Suite</option>
+                <option value="Double Room" >Double Room</option>
+                <option value="Standard Room" >Standard Room</option>
+                <option value="Dormitory">Dormitory</option>
               </select>
             </div>
           </div>
