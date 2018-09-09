@@ -112,7 +112,7 @@ blockquote .small::before, blockquote footer::before, blockquote small::before {
 /* =4. Headings
 --------------------------------------------------------------------------------------------------------*/
 #logo { display:block; display:table; height:52px; position:relative; margin:0; float:left }
-#logo a { background:url(../images/bg-logo.png) center no-repeat; background-size:100px 52px; width:100px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
+#logo a { background:url(../images/mangattu.png) center no-repeat; background-size:100px 52px; min-width:100px; /*try to keep it below 52px*/ height:52px; text-indent:-9999px; display: table-cell; vertical-align: middle; }
 .tagline { float:left; font-size:13px; font-weight:400; padding:0 0 0 20px; margin:0px auto; position:relative; display:table; height:52px; margin-top:-1px; }
 .tagline span { display: table-cell; vertical-align: middle; }
 
