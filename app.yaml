@@ -12,5 +12,7 @@ handlers:
   static_dir: ajax
 - url: /js
   static_dir: js
+- url: /fonts
+  static_dir: fonts
 - url: /*
   script: index.php
