@@ -29,7 +29,7 @@ if(trim($name) == '') {
 
 	exit('<div class="error_message">Please enter your phone number.</div>');
 
-} else if(trim($start) == '') {
+} /* else if(trim($start) == '') {
 
 	exit('<div class="error_message">Please choose a date.</div>');
 	
@@ -37,7 +37,7 @@ if(trim($name) == '') {
 
 	exit('<div class="error_message">Please choose a date.</div>');
 	
-} else if( strpos($email, 'href') !== false ) {
+} */ else if( strpos($email, 'href') !== false ) {
 
 	exit('<div class="error_message">You have entered an invalid e-mail address.</div>');
 	
@@ -57,7 +57,7 @@ $e_subject = 'A reservation from ' . $name . '.';
 
 $e_body = "You have been contacted by $name through your reservation form, with the following details." . "\r\n" . "\r\n";
 
-$e_content = "\"Full Name: $name\"" . "\r\n</br>" . "\r\n" . "\"Email Address: $email\"" . "\r\n" . "\r\n" . "\"Phone Number: $phone\"" . "\r\n" . "\r\n" . "\"Room: $room\"" . "\r\n" . "\r\n" . "\"Arrival Date: $start\"" . "\r\n" . "\r\n" . "\"Departure Date: $end\"" . "\r\n" . "\r\n" . "\"Adults: $adults\"" . "\r\n" . "\r\n" . "\"Children: $children\"" . "\r\n" . "\r\n";
+$e_content = "\"Full Name: $name\"" . "\r\n</br>" . "\r\n" . "\"Email Address: $email\"" . "\r\n" . "\r\n" . "\"Phone Number: $phone\"" . "\r\n" . "\r\n" . "\r\n" . "\r\n";
 
 $e_reply = "You can contact $name via email: $email or by phone: $phone";
 
@@ -73,7 +73,7 @@ $headers .= "Reply-To: $email" . "\r\n";
 
 $headers .= "MIME-Version: 1.0" . "\r\n";
 
-$headers .= "Content-type: text/plain; charset=utf-8" . "\r\n";
+$headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
 
 $headers .= "Content-Transfer-Encoding: quoted-printable" . "\r\n";
 
