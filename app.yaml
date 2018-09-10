@@ -14,3 +14,6 @@ handlers:
   static_dir: js
 - url: /fonts
   static_dir: fonts
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
