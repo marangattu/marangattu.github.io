@@ -48,7 +48,7 @@
       <ul id="nav">
         <li class="active"><a href="#section1">Home</a> </li>
         <li><a href="#section2">Rooms</a> </li>
-        <li><a href="#section3">Reservation</a> </li>
+        <li><a href="#section3">Enquiry</a> </li>
         <li><a href="#section4">About</a></li>
         <!-- <li><a href="#section5">Deals</a> </li>  -->
         <li><a href="#section6">Contact</a> </li>
@@ -175,7 +175,7 @@
     </div>
     <!-- start reservation form -->
     <div class="container clearfix" id="sandbox-container">
-      <form method="post" action="reservation.php" name="reservation" id="reservation" autocomplete="off" class="form">
+      <form method="post" action="https://formspree.io/tumatuh@hubii-network.com" name="reservation" id="reservation" autocomplete="off" class="form">
         <fieldset>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Full Name</label>
@@ -183,12 +183,18 @@
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Email Address</label>
-            <input type="text" name="Email" id="email" required/>
+            <input type="text" name="_replyto" id="email" required/>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6">
             <label>Phone</label>
             <input type="text" name="Phone" id="phone" />
           </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <label>Message</label>
+            <input type="text" name="Message" id="message" />
+          </div>
+          <input type="hidden" name="_next" value="https://marangattu.github.io/" />
+          <input type="hidden" name="_subject" value="Enquiry on Marangattu residency" />
           <div class="col-lg-2 centered">
             <div class="button full-width">
               <input type="submit" class="submit" id="submit" value="Submit" />
