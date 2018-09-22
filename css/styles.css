@@ -105,6 +105,7 @@ blockquote p.name { font-style:normal; color:#777; font-weight:400; margin-top:-
 blockquote .small::before, blockquote footer::before, blockquote small::before { content:""; }
 .with-bg blockquote, .with-bg blockquote::before { color:#fff; }
 .strike {text-decoration:line-through;}
+.error {font-size: small;color: red}
 /* End Typography
 --------------------------------------------------------------------------------------------------------*/
 

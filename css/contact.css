@@ -11,7 +11,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {border:0;padding:0;
 /* Form style */
 input, textarea, select { font-size: 15px; font-family:Lora, "Helvetica Neue", Helvetica, Arial, sans-serif; color:#888; border:0; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; float:none; display:block; margin:0px; -webkit-appearance: none; background:none }
 textarea { resize: none; }
-#message { margin: 0; padding: 0px; z-index:200; height:auto; }
+#message {  height:auto; }
 .message-holder { height:50px; display:block; }
 .error_message, #success_page { display: block; height:auto; color:#d31800; font-style:italic; font-size: 12px; padding: 10px 0px 0px 0px; line-height:1.5;  position:relative; }
 #success_page { color:#2b2b2b !important; font-style:normal; }
