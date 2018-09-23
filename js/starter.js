@@ -3,6 +3,10 @@
 jQuery(window).load(function() { // makes sure the whole site is loaded
     jQuery("#status").fadeOut(); // will first fade out the loading animation
     jQuery("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+$( '.lazyload' ).each( function(){
+            //* set the img src from data-src
+            $( this ).attr( 'src', $( this ).attr( 'data-src' ) );
+        } );
 });
 
 

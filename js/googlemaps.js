@@ -1,6 +1,4 @@
-﻿$(document).ready(function() {
-
-    if ($('#map').length) {
+﻿ 
         var styles = [{
             featureType: "administrative",
             elementType: "all",
@@ -43,7 +41,9 @@
             }]
         }];
         var map;
-        var mapOptions = {
+      
+        function initMap() {
+  var mapOptions = {
             center: new google.maps.LatLng(18.906128, 76.757098),
             zoom: 4,
             scrollwheel: false,
@@ -53,10 +53,7 @@
             disableDefaultUI: false,
             zoomControl: true,
             styles: styles
-        };
-
-        function initMap() {
-            "use strict";
+        }; 
             var map = new google.maps.Map(document.getElementById("map"), mapOptions);
             var bounds = new google.maps.LatLngBounds();
             var myIcon = new google.maps.MarkerImage("images/icons/location-pin-3.png", null, null, null, new google.maps.Size(24, 24));
@@ -67,8 +64,4 @@
                 icon: myIcon
             });
         }
-
-        initMap();
-        google.maps.event.addDomListener(window, 'load', initMap);
-    }
-});
+ 
