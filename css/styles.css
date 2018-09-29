@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 
@@ -331,6 +331,7 @@ i.fa { margin-right:3px; color:#2b2b2b }
 .round-button { border-radius:51%; height:66px; width:66px; display:inline-block; text-align:center; border:2px solid #fff; position:relative; margin:15px 0 33px; background:#fff; }
 .round-button i.fa { color:#2b2b2b; font-size:22px; padding:0; margin:0; padding-top:19px; padding-left:5px; }
 
+.ico {font-size:xx-large;color:black;position:relative; height:36px; width:36px; margin-top:14px; margin-bottom:10px; opacity:0.8; display:inline-block}
 .icons.food-dome-serving { background:url(../images/icons/food-dome-serving.png) center no-repeat; background-size:36px 36px; }
 .icons.beach { background:url(../images/icons/beach.png) center no-repeat; background-size:36px 36px; }
 .icons.dumbell { background:url(../images/icons/dumbell.png) center no-repeat; background-size:36px 36px; }
